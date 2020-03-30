@@ -1,10 +1,4 @@
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
 <section class="interactive">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/interactive"><img src="https://khuddam.org.uk/wp-content/uploads/2020/03/LD-logo.png" width="250"/></a>
@@ -22,8 +16,8 @@
                  <a class="dropdown-item" href="/education">Home</a>
                  <div class="dropdown-divider"></div>
                 <a class="dropdown-item" target="_blank" href="https://khuddam.org.uk/wp-content/uploads/2020/03/WeeklyPlanner.pdf">Interactive Classes</a>
-                <a class="dropdown-item" href="#">Daily Dua</a>
-                <a class="dropdown-item" href="#">Video Tasks</a>
+                <a class="dropdown-item" href="/daily-dua">Daily Dua</a>
+                <a class="dropdown-item" href="#">Video Talks</a>
                 <a class="dropdown-item" href="#">Useful Resources</a>
               </div>
             </li>
@@ -36,8 +30,8 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="/sot-resources">Resources</a>
                 <a class="dropdown-item" href="/sot-support">Job Opportunities</a>
-                <a class="dropdown-item" href="#">Learn a New Skill</a>
-                <a class="dropdown-item" href="#">Waqfe Arzi</a>
+                <a class="dropdown-item" href="/learn-a-skill">Learn a New Skill</a>
+                <a class="dropdown-item" href="#">Volunteering</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -47,7 +41,7 @@
               <div class="dropdown-menu" aria-labelledby="wellbeing">
                  <a class="dropdown-item" href="/wellbeing">Home</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Inspiration</a>
+                <a class="dropdown-item" href="sej-videos">Inspirational Videos</a>
                 <a class="dropdown-item" href="#">Resources for Parents</a>
               </div>
             </li>
@@ -62,13 +56,18 @@
                 <a class="dropdown-item" href="#">The truth about the Messiah</a>
               </div>
             </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/creative-corner" id="creative-corner" role="button">
+                 Creative Corner
+               </a>
+             </li>
           </ul>
         </div>
       </nav>
 
 
 
-   <h1 style="margin-left: 1em; margin-top: 1em;">Jobs and Skills</h1>
+   <h1>Jobs and Skills</h1>
    <div class="tab-content" id="interactive-tab-content" style="margin: 30px 0;">
         <div class="row cards-container">
         <div class="col-sm-3">
@@ -76,7 +75,7 @@
             <a href="/sot-resources"><img src="https://khuddam.org.uk/wp-content/uploads/2020/03/homeschooling.jpg" alt="" width="100%" /></a>
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Resources</h5>
-                <p class="card-text">Resurces for jobs and skills</p>
+                <p class="card-text">Resources for jobs and skills</p>
                 <a href="/sot-resources" class="btn btn-primary mt-auto">More Information</a>
             </div>
             </div>
@@ -86,8 +85,8 @@
             <a href="/sot-support"><img src="https://khuddam.org.uk/wp-content/uploads/2020/03/Blue-Office-Hacks-YouTube-Thumbnail_opt.png" alt="Job opportunities" width="100%" /></a>
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Job opportunities</h5>
-                <p class="card-text">Job opportunities in Tesco, Asda, Amazon etc...</p>
-                <a href="/sot-support" class="btn btn-primary mt-auto">View here.</a>
+                <p class="card-text">Job opportunities in currently and after COVID-19...</p>
+                <a href="/sot-support" class="btn btn-primary mt-auto">View here</a>
             </div>
             </div>
         </div>
@@ -103,7 +102,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="card text-white bg-dark">
-                    <a href="#"><img src="https://khuddam.org.uk/wp-content/uploads/2020/03/Dictionary-Volunteer-Political-Advocacy-and-Cause-T-Shirt_opt.png" alt="waqfe arzi" width="100%" /></a>
+                    <a href="#"><img src="https://khuddam.org.uk/wp-content/uploads/2020/03/Dictionary-Volunteer-Political-Advocacy-and-Cause-T-Shirt_opt.png" alt="Volunteering" width="100%" /></a>
                     <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Volunteering</h5>
                     <p class="card-text">Volunteer and take part in Khidmate Khalq activities</p>
@@ -230,5 +229,9 @@
    }
    .navbar-toggler {
      font-size: 2rem;
+   }
+   h1 {
+      margin-top: 1.5em; 
+      text-align: center;
    }
 </style>
