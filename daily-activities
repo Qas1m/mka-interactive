@@ -1,0 +1,182 @@
+
+<section class="interactive">
+   <div class="container">
+
+       <h1>MKA Learning and Development</h1>
+      <br>
+       <h2>Today's activities (Tuesday 7th April 2020)</h2>
+
+
+      <table class="table table-dark" style="margin-top: 50px;">
+         <thead>
+         <tr>
+            <th scope="col">Activity</th>
+            <th scope="col" class="time">Time</th>
+            <th scope="col">Platform</th>
+         </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td style="text-align: center;">Salat/Arabic (Spring Retreat)</td>
+               <td class="time">10:00-11:00</td>
+               <td style="text-align: center;"><a href="https://us04web.zoom.us/j/5273601877" target="_blank">Zoom</a></td>
+            </tr>
+            <tr>
+               <td style="text-align: center;">Ethics & Morality in Religion and Science (Spring Retreat)</td>
+               <td class="time">11:00-12:00</td>
+               <td style="text-align: center;"><a href="https://us04web.zoom.us/j/5273601877" target="_blank">Zoom</a></td>
+            </tr>
+            <tr>
+               <td style="text-align: center;">Urdu Language (Spring Retreat)</td>
+               <td class="time">14:00-15:00</td>
+               <td style="text-align: center;"><a href="https://us04web.zoom.us/j/5273601877" target="_blank">Zoom</a></td>
+            </tr>
+            <tr>
+               <td style="text-align: center;">Islam: A Religion of Misogyny & Homophobia? (Spring Retreat) </td>
+               <td class="time">15:00-16:00</td>
+               <td style="text-align: center;"><a href="https://us04web.zoom.us/j/5273601877" target="_blank">Zoom</a></td>
+            </tr>
+            <tr>
+               <td style="text-align: center;">Lets Talk Session (Atfal)</td>
+               <td class="time">17:30-18:30</td>
+               <td style="text-align: center;"><a href="https://us04web.zoom.us/j/5273601877" target="_blank">Zoom</a></td>
+            </tr>
+         </tbody>
+      </table>
+
+
+
+
+
+   </div>
+</section>
+
+
+
+<section style="background-color: white; margin-top: 5%;">
+
+   <div class="container">
+
+           <div class="span12">
+             <div class="thumbnail center well well-small text-center">
+               <h2>Daily Activities Reminder</h2>
+                   
+               <p>Enter your email address below to recieve the daily activities by email</p>
+                   
+
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address" style="width: 50%; margin: 0 auto;">
+
+                       <br>
+                       <input type="submit" value="Subscribe" class="btn btn-outline-primary" />
+
+               </div>    
+           </div>
+
+   </div>
+   
+</section>
+
+
+<style>
+
+    .mka-page__header, .mka-useful-links, .mka-newsTicker, .mka-tags, .mka-newsletter, .container.d-lg-none, #mka-top-nav {
+        display: none;
+    }
+
+    .interactive {
+        width: 100%;
+    }
+
+    .cards-container {
+       margin: 0 auto;
+    }
+
+   .card-header {
+      text-align: center;
+   }
+
+   .card-body {
+      padding: 0.5rem;
+   }
+
+   .card-body a {
+      white-space: normal;
+   }
+
+   .card-body img {
+      border-radius: 10px;
+   }
+   h3 {
+      color: white;
+   }
+
+   #interactive-nav .nav-item {
+      font-size: 1.8rem;
+   }
+
+   .mka-main-navbar .mka-brand {
+      margin: 0 auto;
+   }
+   #mka-main-menu {
+      display: none;
+   }
+   
+   @media (max-width: 767.98px) {
+      .navbar-collapse.collapse.show {
+         position: static;
+         height: auto;
+         padding-left: 1em;
+      }
+      .dropdown-menu.show {
+         text-align: center;
+      }
+   }
+   li.nav-item.dropdown {
+     padding: 0 0.5em;
+   }
+   .navbar-toggler {
+     font-size: 2rem;
+   }
+
+   .card.text-white.bg-dark {
+      border-radius: 10px;
+   }
+
+   h1 {
+      margin-top: 1.5em; 
+      text-align: center;
+   }
+
+   h2 {
+      text-align: center;
+   }
+
+   .table.table-dark {
+      background: #212529;
+      color: white;
+      border-radius: 10px;
+      margin: 0 auto;
+   }
+
+   .table th, .table td {
+      padding: 10px;
+   }
+
+   .table th {
+      width: 33.3%;
+      font-size: 1.2em;
+   }
+
+   .table tr {
+      border-bottom: 1px solid #fff;
+   }
+
+   .interactive a, .interactive a:visited {
+      color: white;
+      text-decoration: underline;
+   }
+
+   .time {
+      text-align: center;
+   }
+</style>   
