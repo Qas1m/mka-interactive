@@ -1,21 +1,21 @@
-
 <section class="interactive">
    <div class="container">
 
        <h1>MKA Learning and Development</h1>
-      
-       <h2>Today's activities (Tue 7th April 2020)</h2>
 
-      <div id="poster">
+
+
+       <div id="poster">
          <div>
-            <h2 style="color: white; padding-top: 5mm; text-shadow: 2px 2px 5px black;">Today's Activities (Saturday 9<sup>th</sup> May 2020)</h2>
+            <h2 style="color: white; padding-top: 5mm; text-shadow: 2px 2px 5px black;">Today's Activities (Sunday 10<sup>th</sup> May 2020)</h2>
          </div>
-         <img src="https://khuddam.org.uk/wp-content/uploads/2020/05/Saturday.png" class="card-img-top" alt="Today's Activities">
+         <div style="margin: 2.5mm">
+            <img src="https://khuddam.org.uk/wp-content/uploads/2020/05/Sunday.png" class="card-img-top" alt="Today's Activities" style="border: 1px solid white; border-radius: 20px;">
+         </div>
          <div style="padding: 5mm;">
             <h3 style="color: white;">Links:</h3>
-         <p><a href="https://us02web.zoom.us/j/5275271001" target="_blank">Zoom Class</a><br>
-         <a href="https://www.youtube.com/user/MKAUKVideos" target="_blank">MKA UK YouTube Channel</a></p>
-            
+            <a id="link" class="btn btn-outline-light" href="https://us02web.zoom.us/j/5275271001" target="_blank" role="button" style="text-decoration: none;"><img src="https://khuddam.org.uk/wp-content/uploads/2020/05/zoom.png" style="height: 30px; width: 30px; margin:1.5mm"> Zoom Class</a>         
+            <a id="link" class="btn btn-outline-light" href="https://www.youtube.com/user/MKAUKVideos" target="_blank" role="button" style="text-decoration: none;"><img src="https://khuddam.org.uk/wp-content/uploads/2020/05/youtube.png" style="height: 25px; width: 35px; margin: 2mm;">MKA UK YouTube Channel</a>
          </div>
        </div>
 
@@ -123,10 +123,12 @@
    }
 
    #poster {
+      border: 2px solid black;
       width: 50%;
-      background-image: linear-gradient(to top left, rgb(34, 72, 53), rgb(82, 148, 100, 1));
+      background-image: linear-gradient(-90deg, #001f54ff, #034078ff);
+      background-size: 150%;
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
-      margin: 0 auto;
+      margin: 10mm auto;
    }
    
    @media (max-width: 767.98px) {
@@ -200,4 +202,18 @@
       margin: 2em auto 0;
    }
 
+   #link{
+      color: white;
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 5px;
+      margin: 2.5mm 2.5mm 0;
+   }
+
+   #link:hover{
+      color: black;
+      background-color: white;
+      transform: scale(1.1);
+      transition: 0.2s linear;
+   }
 </style>    
